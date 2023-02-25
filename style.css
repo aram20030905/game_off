@@ -1,0 +1,76 @@
+.a76{
+    width: 500px;
+    height: 275px;
+    border-radius: 20px;
+    background-image:url(abstract-white-background-stripes-dots-vector-minimal-banner-grey-colored-sleek-texture-banners-presentations-137051578.jpg);
+    margin-left: 500px;
+
+    
+    ;
+}
+th{
+    font-size: 52px;
+}
+.ar5{
+    background-color: green;
+}
+.ar6{
+    background-color: yellow;
+}
+.ar7{
+    background-color: blue;
+}
+.ar8{
+    background-color: red;
+}
+.ar9{
+    background-color: orange;
+}
+.ar10{
+    background-color: aqua;
+}
+td{
+    font-size:52px;
+}
+body{
+  background-image: (url("1.jpg"));
+}
+#a1{
+    background-color: white;
+    font-size: 52px;
+    width: 500px;
+    height: 275px;
+    border-radius: 20px;
+
+    margin-left: 500px;
+}
+
+#a2{
+    background-color:magenta;
+    font-size: 52px;
+    width: 500px;
+    height: 275px;
+    border-radius: 20px;
+
+    margin-left: 500px;
+}
+
+#a3{
+    background-color:green;
+    font-size: 52px;
+    width: 500px;
+    height: 275px;
+    border-radius: 20px;
+
+    margin-left: 500px;
+}
+
+#a4{
+    background-color: red;
+    font-size: 52px;
+    width: 500px;
+    height: 275px;
+    border-radius: 20px;
+
+    margin-left: 500px;
+}
