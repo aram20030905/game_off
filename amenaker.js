@@ -1,14 +1,20 @@
 var LivingCreature = require("./LivingCreature")
 
 module.exports = class Amenaker extends LivingCreature{
+    constructor(x,y){
+        super(x,y)
+        this.energy = 50
+    }
     random(ch){
         let found = this.chooseCell(ch);
         let result = Math.floor(Math.random()*found.length)
         return found[result];
     }
+    randomInt(min, max) {
+        return min + Math.floor(Math.random() * (max - min + 1));
+    }
    mul () {
-      var emptyCells = this.chooseCell(0);
-         var newCell = this.random(emptyCells);
+         var newCell = this.random(0);
   
          if(newCell){
              var newX = newCell[0];
@@ -22,8 +28,7 @@ module.exports = class Amenaker extends LivingCreature{
      }
  move() {
          this.energy--
-         var emptyCells = this.chooseCell(0);
-         var newCell = this.random(emptyCells);
+         var newCell = this.random(0);
          if(newCell && this.energy >= 0) {
              var newX = newCell[0];
              var newY = newCell[1];
@@ -36,15 +41,10 @@ module.exports = class Amenaker extends LivingCreature{
          }
      }
   eat() {
-         let cells = [];
-         var grass = this.chooseCell(1);
-         cells = cells.concat(grass);
-         var grasseat = this.chooseCell(2);
-         cells = cells.concat(grasseat);
+        let cells = [this.random(1),this.random(2),this.random(3)];
+        let int = this.randomInt(0, 2)
 
-         var grassEatereat = this.chooseCell(3);
-         cells = cells.concat(grassEatereat);
-         var newCell = this.random(cells);
+         var newCell = cells[int]
          //console.log(newCell)
         if(newCell) {
              this.energy++

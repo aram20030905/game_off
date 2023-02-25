@@ -79,7 +79,7 @@ function generateMatrix(matLength, gr, grEa, grEaea, amen, bom, jur) {
 }
 
 
-matrix = generateMatrix(50, 10, 60, 40, 10, 20, 20);
+matrix = generateMatrix(50, 500, 100, 40, 100, 20, 20);
 
 
 grassArr = [];

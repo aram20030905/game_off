@@ -1,0 +1,24 @@
+{
+  "name": "game_off",
+  "version": "1.0.0",
+  "description": "",
+  "main": "LivingCreature.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aram20030905/game_off.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aram20030905/game_off/issues"
+  },
+  "homepage": "https://github.com/aram20030905/game_off#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}
